@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+div,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+form,
+table,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+select,
+textarea,
+span,
+strong,
+em,
+b,
+i,
+u,
+a,
+img,
+* {
+    padding: 0;
+    margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+body {
+    font-family: "宋体"； font-size: 12px;
+    color: #000;
+    background-color: #fff;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 14px;
+}
+
+img {
+    border: none;
+}
+
+img,
+input,
+textarea,
+select,
+output {
+    vertical-align: middle;
+}
+
+a {
+    background: transparent;
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #006699;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.wrap {
+    width: 400px;
+    height: 200px;
+    background: #cfc;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.del {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.wrap h4 {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 24px;
+}
+
+.wrap h5 {
+    width: 100%;
+    height: 30px;
+    line-height: 20px;
+    font-weight: normal;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.wrap button {
+    width: 50px;
+    height: 30px;
+    background: pink;
+    border: 0;
+}
+
+#suc {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+#cancel {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.mark {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    z-index: 999;
+    display: none;
+}
